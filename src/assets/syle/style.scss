@@ -1,0 +1,32 @@
+/* -------------------------------- 
+
+File#: _1_file-upload
+Title: File Upload
+Descr: Custom file input element used to select and upload a file
+
+-------------------------------- */
+.button-area-line {
+    margin: 10px auto;
+    display: -webkit-box;   
+    display: -moz-box;  
+    display: -ms-flexbox; 
+    display: -webkit-flex; 
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 25%;
+    a {
+     background: #db9989;
+      padding: 1em;
+      font-size:1em;
+      margin: .3em;
+      color: white;
+      text-decoration: none;
+      flex: 1 1 0;
+      text-align: center;
+      border-radius: 25px;
+    }
+  }
