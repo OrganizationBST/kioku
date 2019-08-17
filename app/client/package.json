@@ -44,5 +44,6 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "proxy": "http://localhost:5000/"
 }
