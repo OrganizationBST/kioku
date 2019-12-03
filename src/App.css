@@ -15,3 +15,7 @@
     color: #db9989;
     cursor: pointer;
 }
+
+.custom-radio div {
+    padding-left: 2.5rem;
+}

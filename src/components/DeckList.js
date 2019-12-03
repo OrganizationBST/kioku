@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Container, ListGroup, ListGroupItem, Button } from 'reactstrap';
+import { Container, ListGroup, ListGroupItem } from 'reactstrap';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import styles from '../App.css';
+import '../App.css';
 import uuid from 'uuid';
 import DeckModal from './DeckModal';
 
