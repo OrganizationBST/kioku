@@ -1,22 +1,21 @@
-.App {
-  text-align: center;
+.fade-enter {
+    opacity: 0.01;
 }
 
-.App-logo {
-  height: 40vmin;
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.item {
+    transition: 500ms;
 }
 
-.App-link {
-  color: #09d3ac;
+.item:hover {
+    color: #db9989;
+    cursor: pointer;
+}
+
+.custom-radio div {
+    padding-left: 2.5rem;
 }
